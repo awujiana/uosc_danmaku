@@ -2,3 +2,6 @@ danmaku/*
 *.toml
 .*
 !.gitattributes
+# 生产工作区本地追加：发布树按排除清单不跟踪 .gitattributes，
+# 这里重新忽略，避免 git status 常驻未跟踪项 / 误被 git add -A 带入。
+.gitattributes
